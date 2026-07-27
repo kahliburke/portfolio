@@ -1,0 +1,118 @@
+{
+  "docs": [
+    {
+      "binds": 2,
+      "cells": 17,
+      "code": 8,
+      "date": "2026-07-06",
+      "description": "Whispering-gallery modes are the long-lived optical resonances of a dielectric disk, in which light is confined near the boundary by total internal reflection. This first notebook in the Orbits of Light series computes them exactly, starting from the Bessel-function modes…",
+      "image": "01-whispering-gallery/og-image.png",
+      "md": 9,
+      "packages": [
+        "SpecialFunctions"
+      ],
+      "runnable": true,
+      "slug": "01-whispering-gallery",
+      "title": "Round and Round",
+      "updated": "2026-07-06",
+      "section": "Orbits of Light",
+      "order": 10.0
+    },
+    {
+      "binds": 0,
+      "cells": 37,
+      "code": 17,
+      "date": "2026-07-06",
+      "description": "Part II found a chaotic sea in a deformed cavity and followed the stable island through it. To understand the sea itself we step away from the cavity to the cleanest system that holds the same physics: the kicked rotor,…",
+      "image": "03-the-tangle/og-image.png",
+      "md": 20,
+      "packages": [
+        "FFTW"
+      ],
+      "runnable": true,
+      "slug": "03-the-tangle",
+      "title": "The Figure Poincaré Would Not Draw",
+      "updated": "2026-07-07",
+      "section": "Orbits of Light",
+      "order": 30.0
+    },
+    {
+      "binds": 5,
+      "cells": 35,
+      "code": 21,
+      "date": "2026-07-07",
+      "description": "Deforming Part I's integrable disk into a quadrupole, $r(\\theta)=1+\\varepsilon\\cos 2\\theta$, breaks the conservation of the angle of incidence and turns the phase space mixed — surviving invariant tori interleaved with a chaotic sea. This notebook follows one structure through the…",
+      "image": "out-of-round/og-image.png",
+      "md": 14,
+      "packages": [
+        "QuadGK",
+        "Roots",
+        "StaticArrays"
+      ],
+      "runnable": false,
+      "slug": "out-of-round",
+      "title": "Out of Round",
+      "updated": "2026-07-07",
+      "section": "Orbits of Light",
+      "order": 20.0
+    },
+    {
+      "binds": 1,
+      "cells": 30,
+      "code": 17,
+      "date": "2026-07-13",
+      "description": "Flight delay behaves like an infectious disease, and the carrier is the airframe itself. An aircraft that lands late departs late; that departure lands late somewhere else; by evening, a thunderstorm that cleared Chicago at noon is still rippling through…",
+      "image": "delay-contagion/og-image.png",
+      "md": 13,
+      "packages": [
+        "Chain",
+        "ZipArchives"
+      ],
+      "runnable": false,
+      "slug": "delay-contagion",
+      "title": "Delay Contagion: How Late Flights Infect the Network",
+      "updated": "2026-07-13",
+      "section": "Data Science",
+      "order": 40.0
+    },
+    {
+      "binds": 0,
+      "build": {
+        "bundle": false,
+        "history": false,
+        "outputs": "all",
+        "source": true,
+        "theme": "dark"
+      },
+      "cells": 41,
+      "code": 31,
+      "date": "2026-07-19",
+      "description": "A single publisher broadcasts to N subscribers over ZMQ ipc:// (Unix-domain sockets), and we measure three axes as payload size and subscriber count scale: message rate, data throughput (MB/s), and end-to-end delivery latency (recv − send percentiles). Latency is coordinated-omission-correct…",
+      "image": "zmq-ipc-fan-out-benchmark/og-image.png",
+      "md": 10,
+      "order": 0.0,
+      "packages": [],
+      "runnable": false,
+      "section": "",
+      "slug": "zmq-ipc-fan-out-benchmark",
+      "source": "/Users/kburke/KaimonSlate/uploads/zmq_fanout_bench/notebooks/zmq_fanout_bench.jl",
+      "title": "ZMQ IPC Fan-out Benchmark",
+      "updated": "2026-07-19"
+    }
+  ],
+  "home": true,
+  "title": "portfolio",
+  "homeDoc": {
+    "build": {
+      "bundle": false,
+      "history": false,
+      "outputs": "all",
+      "source": true,
+      "theme": "dark"
+    },
+    "id": "nb_5c2f759f2142580803c247f0",
+    "path": "/Users/kburke/devel/Portfolio.jl/notebooks/portfolio.jl",
+    "source": "/Users/kburke/devel/Portfolio.jl/notebooks/portfolio.jl",
+    "title": "portfolio"
+  }
+}
