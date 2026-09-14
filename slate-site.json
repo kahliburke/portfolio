@@ -169,6 +169,36 @@
       "source": "/Users/kburke/devel/Portfolio.jl/notebooks/reading_dap_through_netcdf.jl",
       "title": "Reading DAP Through the netCDF Library",
       "updated": "2026-07-27"
+    },
+    {
+      "binds": 30,
+      "build": {
+        "bundle": true,
+        "charttheme": "midnight",
+        "history": true,
+        "outputs": "all",
+        "override": true,
+        "renderer": "",
+        "slate": "1.8.1",
+        "source": true,
+        "theme": "dark",
+        "width": 1100
+      },
+      "cells": 30,
+      "code": 17,
+      "date": "2026-09-14",
+      "description": "A radially resolved (1-D) power balance for a steady-state D-T reactor heated only by electron cyclotron resonance heating. Prescribed density and temperature profiles are integrated over a toroidal volume to give fusion, bremsstrahlung and synchrotron power densities; an empirical confinement…",
+      "id": "cfb2da75-e2cd-4bb0-b850-b33d6318cf80",
+      "image": "a-1-d-power-balance-model-for-an-ecrh-heated-fusion-reactor/og-image.png",
+      "md": 13,
+      "packages": [
+        "CairoMakie"
+      ],
+      "runnable": true,
+      "slug": "a-1-d-power-balance-model-for-an-ecrh-heated-fusion-reactor",
+      "source": "/Users/kburke/devel/FusionDemo.jl/notebooks/power_balance_1d.jl",
+      "title": "A 1-D Power Balance Model for an ECRH-Heated Fusion Reactor",
+      "updated": "2026-09-14"
     }
   ],
   "home": true,
